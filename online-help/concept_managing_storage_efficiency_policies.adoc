@@ -1,0 +1,70 @@
+---
+permalink: online-help/concept_managing_storage_efficiency_policies.html
+sidebar: sidebar
+keywords: add
+summary: 'A Storage Efficiency Policy \(SEP\) enables you to define the storage efficiency characteristics of a workload. You can assign a Storage Efficiency Policy to a workload when initially creating the workload, or afterwards by editing the workload.'
+---
+= Managing Storage Efficiency Policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A Storage Efficiency Policy (SEP) enables you to define the storage efficiency characteristics of a workload. You can assign a Storage Efficiency Policy to a workload when initially creating the workload, or afterwards by editing the workload.
+
+Storage efficiency includes using technologies, such as thin provisioning, deduplication, and data compression that increase storage utilization and decrease storage costs. While creating Storage Efficiency Policies, you can use these space-saving technologies either individually or together to achieve maximum storage efficiency. When you associate the policies with your storage workloads, the specified policy settings are assigned to them. Unified Manager enables you to assign system-defined and user-defined Storage Efficiency Policies to optimize storage resources in your data center.
+
+Unified Manager provides two system-defined Storage Efficiency Policies: High and Low. These SEPs are applicable to most of the storage workloads in a data center, however, you can create your own policies if the system-defined SEPs do not meet your requirements.
+
+You cannot modify a Storage Efficiency Policy that is system-defined or that is currently assigned to a workload. You cannot delete a Storage Efficiency Policy that is assigned to a workload, or if it is the only available Storage Efficiency Policy.
+
+The Storage Efficiency Policies page lists the available Storage Efficiency Policies and enables you to add, edit, and delete customize SEPs. This page displays the following information:
+
+|===
+| Field| Description
+a|
+Name
+a|
+Name of the Storage Efficiency Policy.
+
+a|
+Type
+a|
+Whether the policy is system-defined or user-defined.
+
+a|
+Space Reserve
+a|
+Whether the volume is thin-provisioned or thick-provisioned.
+
+a|
+Deduplication
+a|
+Whether deduplication is enabled on the volume:
+
+* `Inline`: Deduplication occurs while being written on the volume
+* `Background`: Deduplication occurs in the background
+* `Disable`: Deduplication is disabled on the volume
+
+a|
+Compression
+a|
+Whether data compression is enabled on the volume:
+
+* `Inline`: Data compression occurs while being written on the volume
+* `Background`: Data compression occurs in the background
+* `Disable`: Data compression is disabled on the volume
+
+a|
+Workloads
+a|
+Number of storage workloads that have been assigned the Storage Efficiency Policy
+
+|===
+
+== Guidelines for creating a custom Storage Efficiency Policy
+
+If the existing Storage Efficiency Policies do not meet policy requirements for your storage workloads, you can create a custom Storage Efficiency Policy. However, it is recommended that you attempt to use the system-defined Storage Efficiency Policies for your storage workloads, and only create custom Storage Efficiency Policies if necessary.
+
+*Related information*
+
+xref:task_creating_and_editing_seps.adoc[Creating and editing Storage Efficiency Policies]

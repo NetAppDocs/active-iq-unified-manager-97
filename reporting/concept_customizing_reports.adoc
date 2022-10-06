@@ -1,0 +1,19 @@
+---
+permalink: reporting/concept_customizing_reports.html
+sidebar: sidebar
+keywords: 
+summary: 'There are many ways you can customize views so that you can create a report that contains all the information you need to manage your ONTAP clusters.'
+---
+= Customizing reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+There are many ways you can customize views so that you can create a report that contains all the information you need to manage your ONTAP clusters.
+
+Start with a default inventory page or a custom view, then customize it by adding or removing columns, changing the column order, filtering the data, or sorting on a specific column in ascending or descending order.
+
+[NOTE]
+====
+You must have the Application Administrator or Storage Administrator role to manage reports.
+====

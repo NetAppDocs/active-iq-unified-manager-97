@@ -1,0 +1,21 @@
+---
+permalink: reporting/concept_understanding_reports.html
+sidebar: sidebar
+keywords: 
+summary: 'Reports display detailed information about storage, network, quality of service, and protection relationships, helping you to identify and solve potential problems before they occur.'
+---
+= Understanding reports
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Reports display detailed information about storage, network, quality of service, and protection relationships, helping you to identify and solve potential problems before they occur.
+
+You can download reports as PDF or comma-separated values (CSV) files. When you customize a view, you can save it with a unique name for future use. You can also schedule a report based on that view to run on a regular basis and share it with others.
+
+You can manage all reports that have been scheduled from the Report Schedules page.
+
+[NOTE]
+====
+You must have the Application Administrator or Storage Administrator role to manage reports.
+====

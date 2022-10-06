@@ -1,0 +1,41 @@
+---
+permalink: online-help/concept_monitoring_vmware_virtual_infrastructure.html
+sidebar: sidebar
+keywords: 
+summary: 'Active IQ Unified Manager provides visibility into the virtual machines \(VMs\) deployed on a datastore, and enables monitoring and troubleshooting storage and performance issues in a virtual environment. You can use this feature to determine any latency issues in your storage environment or when there is a reported performance event on your vCenter.'
+---
+= Monitoring VMware virtual infrastructure
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Active IQ Unified Manager provides visibility into the virtual machines (VMs) deployed on a datastore, and enables monitoring and troubleshooting storage and performance issues in a virtual environment. You can use this feature to determine any latency issues in your storage environment or when there is a reported performance event on your vCenter.
+
+A typical virtual infrastructure deployment on ONTAP has various components that are spread across compute, network, and storage layers. Any performance lag in a VM application might occur due to a combination of latencies faced by the various components at the respective layers. This feature is useful for storage and vCenter admins and IT generalists who need to analyze a performance issue in a virtual environment and understand in which component the issue has occurred.
+
+Unified Manager presents the underlying sub-system of a virtual environment in a topological view for determining whether a latency issue has occurred in the compute node, network, or storage. The view also highlights the specific object that causes the performance lag for taking remedial steps and addressing the underlying issue.
+
+The virtual infrastructure deployed on ONTAP storage includes the following objects:
+
+* Datastore: Datastores are virtual storage objects that are connected to the hosts of the VMs. Datastores are manageable storage entities of ONTAP, such as LUNs or volumes, used as a repository for VM files, such as log files, scripts, configuration files, and virtual disks. They are connected to the hosts in the environment via a SAN or IP network connection. Datastores outside of ONTAP that are mapped to the vCenter are not supported or displayed on Unified Manager.
+* Host: A physical or virtual system that runs ESXi, the virtualization software from VMware, and hosts the VM.
+* vCenter: A centralized control plane for managing the VMware VMs, ESXi hosts, and all related components in a virtual environment. For more information about vCenter, see VMware documentation.
+* Virtual disks: The virtual disks on the host that have an extension as VMDK. Data from a virtual disk is stored on the corresponding VMDK.
+* VM: A VMware virtual machine.
+* VMDK: A virtual machine disk on the datastore that provides storage space for virtual disks. For each virtual disk, there is a corresponding VMDK.
+
+These objects are represented in a VM topology view.
+
+*VMware virtualization on ONTAP* image:../media/vm_deployment.gif[]
+
+*User workflow*
+
+The following diagram displays a typical use case of using the VM topology view:
+
+image::../media/vm_workflow.gif[]
+
+== What is not addressed
+
+* Datastores that are outside of ONTAP and are mapped to the vCenter instances are not supported on Unified Manager. Any VMs with virtual disks on those datastores are also not supported.
+* Only NAS and SAN volumes are supported as datastores, virtual volumes (vVoLs) are not supported.
+* The views do not allow you to generate reports for analysing the performance of the various components
