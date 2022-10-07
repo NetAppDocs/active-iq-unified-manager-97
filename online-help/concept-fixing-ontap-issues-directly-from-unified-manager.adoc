@@ -1,0 +1,18 @@
+---
+permalink: online-help/concept-fixing-ontap-issues-directly-from-unified-manager.html
+sidebar: sidebar
+keywords: fix it
+summary: 'Starting with Unified Manager 9.7, you can fix certain ONTAP issues directly from the Unified Manager user interface instead of having to use ONTAP System Manager or the ONTAP CLI.'
+---
+= Fixing ONTAP issues directly from Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Starting with Unified Manager 9.7, you can fix certain ONTAP issues directly from the Unified Manager user interface instead of having to use ONTAP System Manager or the ONTAP CLI.
+
+A new capability called "`Management Actions`" provides fixes to a number of ONTAP issues that have triggered Unified Manager events. Management Actions are available from the Dashboard, from the Event details page, and from the Workload Analysis selection on the left-navigation menu.
+
+There are certain issues that Unified Manager can diagnose thoroughly and provide a single resolution. When available, those resolutions are displayed in Management Actions with a *Fix It* button. Click the *Fix It* button to fix the issue.
+
+Unified Manager sends ONTAP commands to the cluster to make the requested fix. When the fix is complete the event is obsoleted.
