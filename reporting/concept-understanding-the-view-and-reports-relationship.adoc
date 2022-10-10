@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept-understanding-the-view-and-reports-relationship.html
+sidebar: sidebar
+keywords: 
+summary: 'Views and inventory pages become reports when you download or schedule them.'
+---
+= Understanding the view and report relationship
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Views and inventory pages become reports when you download or schedule them.
+
+You can customize and save views and inventory pages for reuse. Almost everything you can view in Unified Manager can be saved, reused, scheduled, and shared as a report.
+
+In the view drop down, items with the delete icon are existing custom views that you or another user have created. Items without an icon are default views provided with Unified Manager. Default views cannot be modified or deleted.
+
+[NOTE]
+====
+If you delete a custom view from the list, it also deletes any scheduled reports that use that view. If you change a custom view, reports that use that view will contain the change the next time the report is generated and sent by email according to the report schedule.
+====
+
+image::../media/view-drop-down-2.gif[]
+
+Only users with the Application Administrator or Storage Administrator role can see the delete icon, change or delete a view, or change or delete a scheduled report.
