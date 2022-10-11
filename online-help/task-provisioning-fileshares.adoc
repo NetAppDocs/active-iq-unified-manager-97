@@ -1,0 +1,67 @@
+---
+permalink: online-help/task-provisioning-fileshares.html
+sidebar: sidebar
+keywords: 
+summary: 'The Provision Workload page enables you to create LUNs \(supporting both iSCSI and FCP protocols\) or file shares \(supporting CIFS/SMB and NFS protocols\) for an existing cluster and Storage Virtual Machine \(storage VM\) when there is free space available.'
+---
+= Provisioning workloads
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Provision Workload page enables you to create LUNs (supporting both iSCSI and FCP protocols) or file shares (supporting CIFS/SMB and NFS protocols) for an existing cluster and Storage Virtual Machine (storage VM) when there is free space available.
+
+== Before you begin
+
+* At least one of SMB, NFS, iSCSI, and FCP services, or all the services should be enabled on your Storage VM. If you are creating LUNs, both iSCSI and FCP must be enabled.
+* For selecting and assigning the Performance Service Level and Storage Efficiency Policy on the workload, the policies must have been created before you start creating the workload.
+
+== Steps
+
+. On the *Provision Workload* page, add the name of the workload that you want to create, and then select the cluster from the available list on which you want to create the workload.
+. Based on the cluster that you have selected, the *STORAGE VM* field filters the available storage virtual machines for that cluster. Select the required storage VM from the list.
++
+Based on the SMB, NFS, iSCSI, and FCP services supported on the storage VM, the NAS and SAN options are enabled in the Host Information section.
+
+. In the *Storage and Optimization* section, assign the storage capacity and Performance Service Level, and optionally, Storage Efficiency Policy for the workload.
++
+The specifications for the Performance Service Level are applied to the workload, and the specifications for the Storage Efficiency Policy are assigned to the volume and LUN, as applicable, when the workload is created.
+
+. Select the *Enforce performance limits* check box if you want to enforce the Performance Service Level that you have assigned to the workload. Assigning a Performance Service Level to a workload ensures that the aggregate on which the workload is created can support the performance and capacity objectives defined in the respective Performance Service Level. For example, if a workload is assigned "`Extreme Performance`", the aggregate on which the workload is to be provisioned should have the capability of supporting the performance and capacity objectives of the "`Extreme Performance`"Performance Service Level, such as SSD storage.
++
+[NOTE]
+====
+Unless you select this check box, the Performance Service Level is not applied on the workload, and the status of the workload on the dashboard appears as unassigned.
+====
+
+. If you are creating an SMB and/or NFS file share, select the *NAS* button. This button is enabled for selection only when the storage VM has the required services enabled.
++
+[NOTE]
+====
+If your SVM is enabled for both SMB and NFS services, you can select the *Share by NFS* and *Share by SMB* buttons and create a file share that supports both NFS and SMB protocols. If you want to create either an SMB or CIFS share, select only the respective button.
+====
+
+ .. For NFS file shares, specify the IP address of the host or network to access the file share volume. You can enter comma-separated values for multiple hosts.
++
+On adding the host IP address, an internal check runs for matching the host details with the SVM and the export policy for that host is created, or in case there is an existing policy, it is reused. If there are several NFS shares created for the same host, then an available export policy for the same host with matching rules is reused for all the files shares. The function of specifying rules of individual policies or reusing policies by providing specific policy keys is available when you provision the NFS share by using APIs.
+
+ .. For an SMB share, specify which users or user groups can access the SMB share and assign the required permissions. For each group of users, a new access control list (ACL) is generated during the file share creation.
+
+. For creating LUNs, select the *SAN* button. This button is enabled for selection only when the selected storage VM has the required services enabled.
+ .. Select the host OS.
+ .. Specify the host mapping for the LUN. You can assign existing initiator groups (igroups), or define and map new igroups to LUNs to control which initiators have access to LUNs.
+ .. [NOTE]
+====
+If you create a new igroup while provisioning the LUN, you need to wait till the next discovery cycle (up to 15 minutes) for using it for the LUN creation. It is therefore recommended that you use an existing igroup from the list of available igroups.
+====
++
+If you want to create a new igroup, select the *Create a new initiator group* button, and then enter the required information to create the igroup.
+. Click *Save*.
++
+The workload is added to the list of storage workloads.
+
+*Related information*
+
+xref:task-creating-and-editing-psls.adoc[Creating and editing Performance Service Levels]
+
+xref:task-creating-and-editing-seps.adoc[Creating and editing Storage Efficiency Policies]

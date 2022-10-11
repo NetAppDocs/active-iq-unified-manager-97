@@ -1,0 +1,9 @@
+---
+permalink: performance-checker/index.html
+sidebar: sidebar
+keywords:
+summary: ''
+---
+= Workflow Guide for Managing Cluster Performance
+:icons: font
+:imagesdir: ../media/
