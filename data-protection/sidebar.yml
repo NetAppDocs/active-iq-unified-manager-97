@@ -54,12 +54,6 @@ entries:
         url: "/data-protection/task-identifying-the-problem-and-performing-corrective-actions-for-a-failed-protection-job.html"
     - title: Resolving lag issues
       url: "/data-protection/task-resolving-lag-issues.html"
-  - title: Resolving a protection job failure
-    url: "/data-protection/task-resolving-a-protection-job-failure.html"
-    entries:
-    - title: Identifying the problem and performing corrective actions for a failed
-        protection job
-      url: "/data-protection/task-identifying-the-problem-and-performing-corrective-actions-for-a-failed-protection-job.html"
   - title: Managing and monitoring protection relationships
     url: "/data-protection/concept-managing-and-monitoring-protection-relationships.html"
     entries:
@@ -68,15 +62,9 @@ entries:
     - title: 'Creating a SnapVault protection relationship from the Health: All
         Volumes view'
       url: "/data-protection/task-creating-a-snapvault-protection-relationship-from-the-health-volumes-page.html"
-    - title: Creating a SnapVault protection relationship from the Volume / Health
-        details page
-      url: "/data-protection/task-creating-a-snapvault-protection-relationship-from-the-health-volume-details-page.html"
     - title: 'Creating a SnapMirror protection relationship from the Health: All
         Volumes view'
       url: "/data-protection/task-creating-a-snapmirror-protection-relationship-from-the-health-volumes-page.html"
-    - title: Creating a SnapMirror protection relationship from the Volume / Health
-        details page
-      url: "/data-protection/task-creating-a-snapmirror-protection-relationship-from-the-health-volume-details-page.html"
     - title: Creating a SnapMirror relationship with version-flexible replication
       url: "/data-protection/task-creating-a-snapmirror-relationship-with-version-flexible-replication.html"
     - title: Creating SnapMirror relationships with version-flexible replication
@@ -84,8 +72,6 @@ entries:
       url: "/data-protection/task-creating-snapmirror-relationships-with-version-flexible-replication-with-backup-option.html"
     - title: Configuring destination efficiency settings
       url: "/data-protection/task-configuring-protection-destination-settings.html"
-    - title: Creating SnapMirror and SnapVault schedules
-      url: "/data-protection/task-creating-snapmirror-and-snapvault-schedules.html"
     - title: Creating cascade or fanout relationships to extend protection from
         an existing protection relationship
       url: "/data-protection/task-creating-cascade-or-fanout-relationships-to-extend-protection-from-an-existing-destination-or-secondary-volume.html"
@@ -93,10 +79,6 @@ entries:
       url: "/data-protection/task-editing-protection-relationships-from-the-protection-volume-relationships-page.html"
     - title: Editing protection relationships from the Volume / Health details page
       url: "/data-protection/task-editing-protection-relationships-from-the-health-volume-details-page.html"
-    - title: Creating a SnapMirror policy to maximize transfer efficiency
-      url: "/data-protection/task-creating-a-snapmirror-policy-to-maximize-transfer-efficiency.html"
-    - title: Creating a SnapVault policy to maximize transfer efficiency
-      url: "/data-protection/task-creating-a-snapvault-policy-to-maximize-transfer-efficiency.html"
     - title: Aborting an active data protection transfer from the Volume Relationships
         page
       url: "/data-protection/task-aborting-an-active-data-protection-transfer.html"
@@ -110,14 +92,8 @@ entries:
       url: "/data-protection/task-quiescing-a-protection-relationship-from-the-health-volume-details-page.html"
     - title: Breaking a SnapMirror relationship from the Volume Relationships page
       url: "/data-protection/task-breaking-a-snapmirror-relationship.html"
-    - title: Breaking a SnapMirror relationship from the Volume / Health details
-        page
-      url: "/data-protection/task-breaking-a-snapmirror-relationship-from-the-health-volume-details-page.html"
     - title: Removing a protection relationship from the Volume Relationships page
       url: "/data-protection/task-removing-a-protection-relationship.html"
-    - title: Removing a protection relationship from the Volume / Health details
-        page
-      url: "/data-protection/task-removing-a-protection-relationship-from-the-health-volume-details-page.html"
     - title: Resuming scheduled transfers on a quiesced relationship from the Volume
         Relationships page
       url: "/data-protection/task-resuming-scheduled-transfers-on-a-quiesced-relationship.html"
@@ -133,14 +109,8 @@ entries:
     - title: Resynchronizing protection relationships from the Volume Relationships
         page
       url: "/data-protection/task-resynchronizing-protection-relationships.html"
-    - title: Resynchronizing protection relationships from the Volume / Health details
-        page
-      url: "/data-protection/task-resynchronizing-protection-relationships-from-the-health-volume-details-page.html"
     - title: Reversing protection relationships from the Volume Relationships page
       url: "/data-protection/task-reversing-protection-relationships.html"
-    - title: Reversing protection relationships from the Volume / Health details
-        page
-      url: "/data-protection/task-reversing-protection-relationships-from-the-health-volume-details-page.html"
     - title: 'Restoring data using the Health: All Volumes view'
       url: "/data-protection/task-restoring-data-using-the-health-volumes-page.html"
     - title: Restoring data using the Volume / Health details page
