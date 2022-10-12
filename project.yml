@@ -22,6 +22,8 @@ sidebar:
   entries:
     - title: Home
       url: "/index.html"
+    - title: Release notes
+      url: "/release-notes.html"
     - section: install-vapp
     - section: install-linux
     - section: install-windows
@@ -37,10 +39,10 @@ sidebar:
 homepage:
   tiles:
     - title: Get started
-      link:
-        - title: Manage storage using REST APIs
-          url: api-automation/index.html
+      links:
+        - title: Release notes
+          url: /release-notes.html
     - title: More resources
-      link:
+      links:
         - title: Documentation for the latest version of Active IQ Unified Manager
           url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html
