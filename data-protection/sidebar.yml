@@ -42,7 +42,7 @@ entries:
         url: "/data-protection/task-reversing-protection-relationships-from-the-health-volume-details-page.html"
       - title: Removing a protection relationship from the Volume / Health details
           page
-        url: "/data-protection/task-removing-a-protection-relationship-from-the-health-volume-details-page.html"
+        url: "/data-protection/.html"
       - title: Resynchronizing protection relationships from the Volume / Health
           details page
         url: "/data-protection/task-resynchronizing-protection-relationships-from-the-health-volume-details-page.html"
