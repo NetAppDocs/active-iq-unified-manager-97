@@ -26,6 +26,7 @@ entries:
     - title: Completing the worksheet
       url: "/install-windows/reference-completing-the-worksheet-um.html"
   - title: Installing, upgrading, and removing Unified Manager software
+    pdf-filename: Installing, upgrading, and removing Unified Manager software (Windows systems)
     url: "/install-windows/concept-installing-upgrading-and-removing-unified-manager-software.html"
     entries:
     - title: Overview of the installation process
@@ -42,7 +43,7 @@ entries:
     - title: Upgrading Unified Manager
       url: "/install-windows/task-upgrading-to-unified-manager-on-microsoft-windows.html"
     - title: Upgrading third-party products
-      pdf-filename: Upgrading third-party products (Windows systems) 
+      pdf-filename: Upgrading third-party products (Windows systems)
       url: "/install-windows/concept-upgrading-third-party-products-on-windows-um.html"
       entries:
       - title: Upgrading JRE

@@ -26,7 +26,7 @@ entries:
     - title: Completing the worksheet
       url: "/install-linux/reference-completing-the-worksheet-um.html"
   - title: Installing, upgrading, and removing Unified Manager software
-    pdf-file-name: Installing, upgrading, and removing Unified Manager software (Linux systems)
+    pdf-filename: Installing, upgrading, and removing Unified Manager software (Linux systems)
     url: "/install-linux/concept-installing-upgrading-and-removing-unified-manager-software.html"
     entries:
     - title: Overview of the installation process
