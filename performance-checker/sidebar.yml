@@ -138,6 +138,7 @@ entries:
         cloud
       url: "/performance-checker/concept-understanding-the-um-recommendations-to-tier-data-to-the-cloud.html"
   - title: Monitoring performance using the Performance Explorer pages
+    pdf-filename: Monitoring performance using the Performance Explorer pages (cluster performance)
     url: "/performance-checker/concept-monitoring-performance-using-the-performance-explorer-pages.html"
     entries:
     - title: Understanding the root object
