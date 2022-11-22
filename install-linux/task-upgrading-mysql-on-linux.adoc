@@ -35,6 +35,8 @@ You can upgrade the base version of MySQL 8.0.20 to later versions for only mino
  ** mysql-community-server-8.0.20
  ** mysql-community-common-8.0.20
  ** mysql-community-libs-compat-8.0.20
+
++ 
 Delete all other `.rpm` packages. However, installing all packages in an rpm bundle does not cause errors.
 . Stop the Unified Manager service and the associated MySQL software in the order shown: `systemctl stop ocieau``systemctl stop ocie``systemctl stop mysqld`
 . Invoke the upgrade of MySQL by using the following command: `yum install *.rpm`
