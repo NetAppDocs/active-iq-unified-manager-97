@@ -50,7 +50,7 @@ homepage:
     - title: Get started
       links:
         - title: Product Overview
-          url: /storage-mgmt/concept_introduction_to_unified_manager.html
+          url: /storage-mgmt/concept-introduction-to-unified-manager.html
         - title: Release notes
           url: /release-notes.html
         - title: Quick start install for VMware vSphere
@@ -62,85 +62,85 @@ homepage:
     - title: Install & configure Unified Manager
       links:
         - title: Install & upgrade on VMware vSphere systems
-          url: /install-vapp/concept_requirements_for_installing_unified_manager.html
+          url: /install-vapp/concept-requirements-for-installing-unified-manager.html
         - title: Install & upgrade on Linux systems
-          url: /install-linux/concept_requirements_for_install_unified_manager.html
+          url: /install-linux/concept-requirements-for-install-unified-manager.html
         - title: Install & upgrade on Windows systems
-          url: /install-windows/concept_requirements_for_installing_unified_manager.html
+          url: /install-windows/concept-requirements-for-installing-unified-manager.html
         - title: Configure Unified Manager
-          url: /config/concept_configure_unified_manager.html
+          url: /config/concept-configure-unified-manager.html
         - title: Manage feature settings
-          url: /config/concept_manage_feature_settings.html
+          url: /config/concept-manage-feature-settings.html
         - title: Manage role-based access
-          url: /config/concept_manage_user_access.html
+          url: /config/concept-manage-user-access.html
     - title: Performance monitoring
       links:
         - title: Performance thresholds
-          url: /performance-checker/concept_manage_performance_thresholds.html
+          url: /performance-checker/concept-manage-performance-thresholds.html
         - title: Cluster performance
-          url: /performance-checker/concept_monitor_cluster_performance_from_dashboard.html
+          url: /performance-checker/concept-monitor-cluster-performance-from-dashboard.html
         - title: QoS policy group
-          url: /performance-checker/concept_manage_performance_using_qos_policy_group_information.html
+          url: /performance-checker/concept-manage-performance-using-qos-policy-group-information.html
         - title: Workload analyzer
-          url: /performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html
+          url: /performance-checker/concept-troubleshooting-workloads-using-workload-analyzer.html
         - title: Workload performance
-          url: /performance-checker/concept_collect_data_and_monitor_workload_performance.html
+          url: /performance-checker/concept-collect-data-and-monitor-workload-performance.html
         - title: Manage Performance
-          url: /performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html
+          url: /performance-checker/concept-manage-performance-using-perf-capacity-available-iops.html
     - title: Storage and object health monitoring
       links:
         - title: Workloads
-          url: /storage-mgmt/concept_provision_and_manage_workloads.html
+          url: /storage-mgmt/concept-provision-and-manage-workloads.html
         - title: Virtual infrastructure
-          url: /storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html
+          url: /storage-mgmt/concept-monitor-vmware-virtual-infrastructure.html
         - title: MetroCluster configurations
-          url: /storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html
+          url: /storage-mgmt/concept-manage-and-monitor-metrocluster-configurations.html
         - title: Clusters and cluster object health
-          url: /health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html
+          url: /health-checker/concept-manage-and-monitor-clusters-and-cluster-object-health.html
         - title: Health thresholds
-          url: /health-checker/concept_manage_health_thresholds.html
+          url: /health-checker/concept-manage-health-thresholds.html
         - title: Send AutoSupport messages and support bundles
-          url: /health-checker/task_send_asup_to_technical_support.html
+          url: /health-checker/task-send-asup-to-technical-support.html
     - title: Data protection monitoring
       links:
         - title: Set up protection relationship
-          url: /data-protection/task_set_up_protection_relationships_in_unified_manager.html
+          url: /data-protection/task-set-up-protection-relationships-in-unified-manager.html
         - title: Perform failover and failback
-          url: /data-protection/task_perform_protection_relationship_failover_and_failback.html
+          url: /data-protection/task-perform-protection-relationship-failover-and-failback.html
         - title: Manage protection relationship
-          url: /data-protection/concept_manage_and_monitor_protection_relationships.html
+          url: /data-protection/concept-manage-and-monitor-protection-relationships.html
         - title: Monitor disaster recovery relationships
-          url: /data-protection/task_monitor_storage_vms_using_relationships_page.html
+          url: /data-protection/task-monitor-storage-vms-using-relationships-page.html
         - title: Generate reports
-          url: /reporting/concept_unified_manager_reporting.html
+          url: /reporting/concept-unified-manager-reporting.html
     - title: Use REST APIs
       links:
         - title: Get started
-          url: /api-automation/concept_api_url_and_categories.html
+          url: /api-automation/concept-api-url-and-categories.html
         - title: Access Unified Manager APIs
-          url: /api-automation/concept_rest_api_access_and_authentication_in_um_apis.html
+          url: /api-automation/concept-rest-api-access-and-authentication-in-um-apis.html
         - title: Manage storage objects
-          url: /api-automation/concept_data_center_apis.html
+          url: /api-automation/concept-data-center-apis.html
         - title: Access ONTAP APIs
-          url: /api-automation/concept_gateway_apis.html
+          url: /api-automation/concept-gateway-apis.html
         - title: Common workflows
-          url: /api-automation/concept_workflow_intro.html
+          url: /api-automation/concept-workflow-intro.html
         - title: Provision storage
-          url: /api-automation/concept_provision_workflow.html
+          url: /api-automation/concept-provision-workflow.html
     - title: Events and alerts
       links:
         - title: Dashboard
-          url: /storage-mgmt/reference_dashboard_page.html
+          url: /storage-mgmt/reference-dashboard-page.html
         - title: Event workflow
-          url: /events/concept_what_happens_when_an_event_is_received.html
+          url: /events/concept-what-happens-when-an-event-is-received.html
         - title: Active IQ platform events
-          url: /events/concept_how_active_iq_platform_events_are_generated.html
+          url: /events/concept-how-active-iq-platform-events-are-generated.html
         - title: Events and severity types
-          url: /events/reference_list_of_events_and_severity_types.html
+          url: /events/reference-list-of-events-and-severity-types.html
         - title: Remediation events
-          url: /storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html
+          url: /storage-mgmt/concept-fix-ontap-issues-directly-from-unified-manager.html
         - title: Automatic remediation
-          url: /storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html
+          url: /storage-mgmt/reference-what-ontap-issues-can-unified-manager-fix.html
     - title: More resources
       links:
         - title: Unified Manager videos
