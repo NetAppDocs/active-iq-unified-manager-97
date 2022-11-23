@@ -15,10 +15,9 @@ An asterisk (*) identifies EMS events that have been converted to Unified Manage
 
 == Impact area: availability
 
+[cols="1a,1a,1a,1a" options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Node Root Volume Space Nearly Full(ocumEvtClusterNodeRootVolumeSpaceNearlyFull )
 
@@ -130,10 +129,9 @@ Error
 
 == Impact area: capacity
 
+[cols="1a,1a,1a,1a" options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 QoS Monitor Memory Maxed *(ocumQosMonitorMemoryMaxed)
 
@@ -156,10 +154,9 @@ Information
 
 == Impact area: configuration
 
+[cols="1a,1a,1a,1a" options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Node Renamed(Not applicable)
 
@@ -173,10 +170,9 @@ Information
 
 == Impact area: performance
 
+[cols="1a,1a,1a,1a" options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Node IOPS Critical Threshold Breached(ocumNodeIopsIncident)
 
@@ -325,10 +321,9 @@ Warning
 
 == Impact area: security
 
+[cols="1a,1a,1a,1a" options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Advisory ID: NTAP-<__advisory ID__>(ocumx)
 

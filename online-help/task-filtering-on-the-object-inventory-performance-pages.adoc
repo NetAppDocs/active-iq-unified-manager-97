@@ -16,7 +16,7 @@ You can filter data in the Object Inventory Performance pages to quickly locate 
 You can use the Filtering panel to customize the grid view based on your preferences. Available filter options are based on the object type being viewed in the grid. If filters are currently applied, the number of applied filters displays at the right of the Filter button.
 
 Three types of filter parameters are supported.
-
+[cols="1a,1a" options="header"]
 |===
 | Parameter| Validation
 a|
@@ -35,6 +35,8 @@ The operators are *is* and *is not*.
 The Column, Operator, and Value fields are required for each filter; the available filters reflect the filterable columns on the current page. The maximum number of filters you can apply is four. Filtered results are based on combined filter parameters. Filtered results apply to all pages in your filtered search, not just the page currently displayed.
 
 You can add filters using the Filtering panel.
+
+== Steps
 
 . At the top of the page, click the *Filter* button. The Filtering panel displays.
 . Click the left drop-down list and select an object; for example, _Cluster_, or a performance counter.

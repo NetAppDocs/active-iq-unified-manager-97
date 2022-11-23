@@ -19,6 +19,7 @@ You cannot modify a Storage Efficiency Policy that is system-defined or that is 
 
 The Storage Efficiency Policies page lists the available Storage Efficiency Policies and enables you to add, edit, and delete customize SEPs. This page displays the following information:
 
+[cols="1a,1a" options="header"]
 |===
 | Field| Description
 a|

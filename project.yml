@@ -64,11 +64,11 @@ homepage:
         - title: Install & upgrade on VMware vSphere systems
           url: /install-vapp/concept-requirements-for-installing-unified-manager.html
         - title: Install & upgrade on Linux systems
-          url: /install-linux/concept-requirements-for-install-unified-manager.html
+          url: /install-linux/concept-requirements-for-installing-unified-manager.html
         - title: Install & upgrade on Windows systems
           url: /install-windows/concept-requirements-for-installing-unified-manager.html
         - title: Configure Unified Manager
-          url: /config/concept-configure-unified-manager.html
+          url: /config/concept-configuring-unified-manager.html
         - title: Manage feature settings
           url: /config/concept-manage-feature-settings.html
         - title: Manage role-based access

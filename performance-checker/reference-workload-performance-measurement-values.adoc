@@ -17,6 +17,7 @@ image::../media/opm-wrkld-perf-measurement-png.gif[Unified Manager workload perf
 
 The following table lists the workload performance measurement values.
 
+[cols="1a,1a" options="header"]
 |===
 | Measurement| Description
 a|

@@ -21,6 +21,7 @@ You cannot modify a Performance Service Level that is system-defined or that is 
 
 The Performance Service Levels page lists the available Performance Service Level policies and enables you to add, edit, and delete them. This page displays the following information:
 
+[cols="1a,1a" options="header"]
 |===
 | Field| Description
 a|
@@ -81,6 +82,7 @@ Note that if workloads exceed the expected latency value for 30% of the time dur
 
 The following table provides information about the system-defined Performance Service Levels:
 
+[cols="1a,1a,1a,1a,1a,1a" options="header"]
 |===
 | Performance Service Level| Description and use case| Expected latency (ms/op)| Peak IOPS| Expected IOPS| Absolute minimum IOPS
 a|

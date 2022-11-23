@@ -17,6 +17,7 @@ You can query all of the Job objects. You can also use the Job key and Job objec
 
 You can use this method to obtains a list of all of the Jobs. The response body consists of the Job details of all of the Jobs. You can also view the details of a particular Job object by specifying the Job key in the URI. The response body consists of the details that are identified by the Job key. In the response, the latest Job object is returned to the top. If you want to query a particular Job object, enter the Job ID of the job.
 
+[cols="1a,1a,1a" options="header"]
 |===
 | Category| HTTP verb| Path
 a|

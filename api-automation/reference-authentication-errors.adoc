@@ -13,6 +13,7 @@ While running the APIs or troubleshooting issues, you should be aware of the var
 
 The following table lists the error codes related to authentication:
 
+[cols="1a,1a,1a" options="header"]
 |===
 | HTTP status code| Status code title| Description
 a|
