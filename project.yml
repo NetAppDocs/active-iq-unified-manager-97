@@ -21,7 +21,7 @@ settings:
       version-number: "9.5"
 sidebar:
   entries:
-    - title: Home
+    - title: Active IQ Unified Manager 9.7 docs
       url: "/index.html"
     - title: Release notes
       url: "/release-notes.html"
@@ -43,14 +43,12 @@ sidebar:
     - section: data-protection
     - section: reporting
     - section: api-automation
-    - title: Legal
-      url: "/legal-notices.html"
+    - title: Legal notices
+      url: "/reference-legal-notices.html"
 homepage:
   tiles:
     - title: Get started
       links:
-        - title: Product Overview
-          url: /storage-mgmt/concept-introduction-to-unified-manager.html
         - title: Release notes
           url: /release-notes.html
         - title: Quick start install for VMware vSphere
@@ -147,10 +145,6 @@ homepage:
           url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
         - title: Unified Manager blogs
           url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
-        - title: Documentation for Active IQ Unified Manager 9.11
-          url: https://docs.netapp.com/us-en/active-iq-unified-manager-911/
-        - title: Documentation for earlier versions
-          url: https://docs.netapp.com/ocum-99/topic/com.netapp.ndc.ocum-vers/GUID-DA5B426C-61E1-45E3-B2BE-834636433934.html
         - title: Documentation for the latest version of Active IQ Unified Manager
           url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html
 

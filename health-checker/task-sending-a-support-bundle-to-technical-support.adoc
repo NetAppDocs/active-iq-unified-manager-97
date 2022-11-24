@@ -13,7 +13,7 @@ This workflow shows you how to generate, retrieve, and send a support bundle to 
 
 == About this task
 
-For more information about the maintenance console, see the http://docs.netapp.com/ocum-97/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide].
+For more information about the maintenance console, see link:../config/concept-maintenance-console-menu.html[Maintenance console menus].
 
 Unified Manager stores two generated support bundles at one time.
 

@@ -54,10 +54,10 @@ On adding the host IP address, an internal check runs for matching the host deta
 ====
 If you create a new igroup while provisioning the LUN, you need to wait till the next discovery cycle (up to 15 minutes) for using it for the LUN creation. It is therefore recommended that you use an existing igroup from the list of available igroups.
 ====
-+
+
 If you want to create a new igroup, select the *Create a new initiator group* button, and then enter the required information to create the igroup.
 . Click *Save*.
-+
+
 The workload is added to the list of storage workloads.
 
 *Related information*

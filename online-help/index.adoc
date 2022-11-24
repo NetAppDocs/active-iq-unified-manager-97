@@ -1,9 +1,0 @@
----
-permalink: online-help/index.html
-sidebar: sidebar
-keywords:
-summary: ''
----
-= Online Help
-:icons: font
-:imagesdir: ../media/
