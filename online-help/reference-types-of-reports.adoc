@@ -13,6 +13,7 @@ Comprehensive list of views and inventory pages available as reports that you ca
 
 == Active IQ Unified Manager reports
 
+[cols="1a,1a" options="header"]
 |===
 | Type| Storage or network object
 a|
