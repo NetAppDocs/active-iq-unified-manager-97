@@ -62,7 +62,7 @@ homepage:
         - title: Install & upgrade on VMware vSphere systems
           url: /install-vapp/concept-requirements-for-installing-unified-manager.html
         - title: Install & upgrade on Linux systems
-          url: /install-linux/concept-requirements-for-installing-unified-manager.html
+          url: install-linux/concept-requirements-for-installing-unified-manager.html
         - title: Install & upgrade on Windows systems
           url: /install-windows/concept-requirements-for-installing-unified-manager.html
         - title: Configure Unified Manager
@@ -72,7 +72,7 @@ homepage:
         - title: Performance thresholds
           url: /performance-checker/concept-managing-performance-thresholds.html
         - title: Cluster performance
-          url: /performance-checker/concept-monitoring-cluster-performance-from-dashboard.html
+          url: performance-checker/concept-monitoring-cluster-performance-from-the-dashboard.html
         - title: QoS policy group
           url: /performance-checker/concept-managing-performance-using-qos-policy-group-information.html
         - title: Workload analyzer

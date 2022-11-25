@@ -38,7 +38,8 @@ a|
 GET
 a|
     `/storage-provider/access-endpoints`
-+
+
+
 `+/storage-provider/access-endpoints/{key}+`
 
 |===
