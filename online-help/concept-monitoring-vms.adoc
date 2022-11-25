@@ -60,9 +60,3 @@ You can drill down to each component separately by viewing the expanded topology
 ====
 Metrics are not reported for VMDKs. In the topology, only the VMDK names are displayed, and not metrics.
 ====
-
-*Related information*
-
-xref:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc[Troubleshooting workloads using the workload analyzer]
-
-xref:concept-cluster-configuration-and-performance-data-collection-activity.adoc[Cluster configuration and performance data collection activity]

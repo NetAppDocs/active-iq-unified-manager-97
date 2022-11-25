@@ -13,8 +13,3 @@ Unified Manager monitors the reliability with which authorized users can access 
 
 The availability workflow topics in this section describe examples of how a storage administrator can use the Unified Manager web UI to discover, diagnose, and assign for resolution hardware and software conditions that adversely affect data availability.
 
-*Related information*
-
-xref:task-resolving-a-storage-failover-interconnect-link-down-condition.adoc[Scanning for and resolving storage failover interconnect link down conditions]
-
-xref:task-resolving-volume-offline-issues.adoc[Resolving volume offline issues]

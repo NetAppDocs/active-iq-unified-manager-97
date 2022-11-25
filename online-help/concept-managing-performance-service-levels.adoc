@@ -180,7 +180,3 @@ a|
 == Guidelines for creating a custom Performance Service Level
 
 If the existing Performance Service Levels do not meet the Service Level Objective (SLO) requirements for your storage workloads, you can create a custom Performance Service Level. However, it is recommended that you attempt to use the system-defined Performance Service Levels for your storage workloads, and only create custom Performance Service Levels if necessary.
-
-*Related information*
-
-xref:task-creating-and-editing-psls.adoc[Creating and editing Performance Service Levels]

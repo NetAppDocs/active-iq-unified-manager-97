@@ -65,7 +65,3 @@ Number of storage workloads that have been assigned the Storage Efficiency Polic
 == Guidelines for creating a custom Storage Efficiency Policy
 
 If the existing Storage Efficiency Policies do not meet policy requirements for your storage workloads, you can create a custom Storage Efficiency Policy. However, it is recommended that you attempt to use the system-defined Storage Efficiency Policies for your storage workloads, and only create custom Storage Efficiency Policies if necessary.
-
-*Related information*
-
-xref:task-creating-and-editing-seps.adoc[Creating and editing Storage Efficiency Policies]

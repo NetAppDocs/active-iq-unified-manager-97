@@ -27,7 +27,3 @@ If you write your backup files to the local system, you should initiate a proces
 Before beginning a backup operation, Unified Manager performs an integrity check to verify that all the required backup files and backup directories exist and are writable. It also checks that there is enough space on the system to create the backup file.
 
 Note that you can restore a backup only on the same version of Unified Manager. For example, if you created a backup on Unified Manager 9.4, the backup can be restored only on Unified Manager 9.4 systems.
-
-*Related information*
-
-xref:reference-database-backup-page.adoc[Database Backup page]

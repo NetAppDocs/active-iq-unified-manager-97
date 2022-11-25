@@ -73,7 +73,3 @@ You can mount `/opt/netapp` or `/opt/netapp/data` on an NAS or SAN device. Note 
 If you have mounted `/opt/netapp` or `/opt/netapp/data` from anywhere other than the root file system, and you have SELinux enabled in your environment, you must set the correct context for the mounted directories.
 
 See the topic _SELinux requirements for mounting /opt/netapp or /opt/netapp/data on an NFS or CIFS share_ for information about setting the correct SELinux context.
-
-*Related information*
-
-xref:task-selinux-requirements-for-mounting-opt-netapp-or-opt-netapp-data-on-an-nfs-or-cifs-share.adoc[SELinux requirements for mounting /opt/netapp or /opt/netapp/data on an NFS or CIFS share]

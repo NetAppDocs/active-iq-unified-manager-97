@@ -33,8 +33,3 @@ When entering the required user information, you must specify an email address t
 
 . Click *Add*.
 
-*Related information*
-
-xref:task-enabling-remote-authentication.adoc[Enabling remote authentication]
-
-xref:task-enabling-saml-authentication-um.adoc[Enabling SAML authentication]

@@ -19,6 +19,3 @@ You can use the Resource Pools page to view the resource pool inventory and to m
 +
 The resource pool inventory is displayed.
 
-*Related information*
-
-xref:reference-resource-pools-page.adoc[Resource Pools page]
