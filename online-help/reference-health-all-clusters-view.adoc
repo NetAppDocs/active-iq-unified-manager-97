@@ -18,17 +18,3 @@ The controls along the top of the page enable you to select a particular view (f
 You can associate a cluster to a predefined annotation by using the *Annotate* button.
 
 See xref:reference-cluster-health-fields.adoc[Cluster health fields] for descriptions of all the fields on this page.
-
-*Related information*
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV and PDF files for reporting]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]
-
-xref:task-rediscovering-clusters.adoc[Rediscovering clusters]
-
-xref:task-adding-clusters.adoc[Adding clusters]
-
-xref:task-removing-clusters.adoc[Removing clusters]
-
-xref:task-generating-a-hardware-inventory-report-for-contract-renewal.adoc[Generating a hardware inventory report for contract renewal]

@@ -38,9 +38,3 @@ Displays the creation date and time of the selected backup.
 * *Schedule*
 +
 Displays the status of the backup operation. Also indicates whether it is a scheduled backup or not.
-
-*Related information*
-
-xref:concept-configuring-the-destination-and-schedule-for-database-dump-backups.adoc[Configuring database backup settings]
-
-xref:concept-backup-and-restore-using-a-mysql-database-dump.adoc[What a database backup is]
