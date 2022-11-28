@@ -26,9 +26,3 @@ Note that when Autogrow is enabled on a volume that capacity thresholds are cons
 . In the left navigation pane, click *Event Thresholds* > *Volume*.
 . Configure the appropriate threshold values for capacity, Snapshot copies, qtree quotas, volume growth, and inodes.
 . Click *Save*.
-
-*Related information*
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]
-
-xref:task-adding-users.adoc[Adding users]

@@ -31,6 +31,3 @@ You can use System Manager, the ONTAP commands, or Unified ManagerPerformance Se
 * Changing the throughput limit of a policy group
 * Moving a workload to a different aggregate and/or node
 
-*Related information*
-
-xref:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc[Troubleshooting workloads using the workload analyzer]

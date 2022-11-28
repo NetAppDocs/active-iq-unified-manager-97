@@ -27,9 +27,3 @@ https://mysupport.netapp.com/info/web/AboutAIQ.html[NetApp Active IQ]
 . Select the *Enable Sending AutoSupport Data Periodically to Active IQ* check box.
 . If required, define the name, port, and authentication information for the HTTP proxy server.
 . Click *Save*.
-
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-sending-an-on-demand-autosupport-message.adoc[Sending on-demand AutoSupport messages]
