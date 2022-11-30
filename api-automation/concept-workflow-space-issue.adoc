@@ -32,7 +32,7 @@ datacenter
 a|
 GET
 a|
-    `/datacenter/cluster/clusters`
+`/datacenter/cluster/clusters`
 
 |===
 
@@ -47,7 +47,7 @@ datacenter
 a|
 GET
 a|
-    `/datacenter/storage/aggregates`
+`/datacenter/storage/aggregates`
 
 |===
 
@@ -63,7 +63,7 @@ datacenter
 a|
 GET
 a|
-    `/datacenter/storage/volumes`
+`/datacenter/storage/volumes`
 
 |===
 

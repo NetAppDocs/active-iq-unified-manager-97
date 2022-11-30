@@ -47,7 +47,7 @@ storage-provider
 a|
 GET
 a|
-    `/storage-provider/file-shares`
+`/storage-provider/file-shares`
 
 |===
 
@@ -62,7 +62,7 @@ storage-provider
 a|
 GET
 a|
-    `+/storage-provider/file-shares/{key}+`
+`+/storage-provider/file-shares/{key}+`
 
 |===
 View the details of the file share in the output.
@@ -146,7 +146,7 @@ storage-provider
 a|
 GET
 a|
-    `+/storage-provider/file-shares/{key}+`
+`+/storage-provider/file-shares/{key}+`
 
 |===
 View the details of the file share in the output.

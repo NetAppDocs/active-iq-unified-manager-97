@@ -67,7 +67,7 @@ ONTAP: storage
 a|
 GET
 a|
-    Gateway API: `+/gateways/{uuid}/{path}+`
+Gateway API: `+/gateways/{uuid}/{path}+`
 
 ONTAP API: `+/storage/volumes/{uuid}+`
 
@@ -103,7 +103,7 @@ ONTAP: storage
 a|
 PATCH
 a|
-    Gateway API: `+/gateways/{uuid}/{path}+`
+Gateway API: `+/gateways/{uuid}/{path}+`
 
 ONTAP API: `+/storage/volumes/{uuid}+`
 
@@ -135,7 +135,7 @@ ONTAP: cluster
 a|
 GET
 a|
-    Gateway API: `+/gateways/{uuid}/{path}+`
+Gateway API: `+/gateways/{uuid}/{path}+`
 
 ONTAP API: `+/cluster/jobs/{uuid}+`
 
@@ -153,7 +153,7 @@ ONTAP: storage
 a|
 GET
 a|
-    Gateway API: `+/gateways/{uuid}/{path}+`
+Gateway API: `+/gateways/{uuid}/{path}+`
 
 ONTAP API: `+/storage/volumes/{uuid}+`
 

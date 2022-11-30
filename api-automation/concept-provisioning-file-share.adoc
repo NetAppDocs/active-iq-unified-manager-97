@@ -37,7 +37,7 @@ storage-provider
 a|
 GET
 a|
-    `/storage-provider/access-endpoints`
+`/storage-provider/access-endpoints`
 
 
 `+/storage-provider/access-endpoints/{key}+`
@@ -98,7 +98,7 @@ management-server
 a|
 GET
 a|
-    `+/management-server/jobs/{key}+`
+`+/management-server/jobs/{key}+`
 
 |===
 
@@ -114,7 +114,7 @@ storage-provider
 a|
 GET
 a|
-        `/storage-provider/active-directories-mappings`
+`/storage-provider/active-directories-mappings`
 
 |===
 
@@ -158,7 +158,7 @@ storage-provider
 a|
 GET
 a|
-    `/storage-provider/performance-service-levels`
+`/storage-provider/performance-service-levels`
 
 |===
 +
@@ -178,7 +178,7 @@ storage-provider
 a|
 GET
 a|
-    `/storage-provider/storage-efficiency-policies`
+`/storage-provider/storage-efficiency-policies`
 
 |===
 

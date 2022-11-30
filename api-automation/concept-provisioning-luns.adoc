@@ -132,7 +132,7 @@ management-server
 a|
 GET
 a|
-    `+/management-server/jobs/{key}+`
+`+/management-server/jobs/{key}+`
 
 |===
 At the end of the response, you see the key of the LUN created.
