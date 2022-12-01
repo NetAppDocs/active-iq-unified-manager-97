@@ -27,7 +27,7 @@ Based on the SMB, NFS, iSCSI, and FCP services supported on the storage VM, the 
 +
 The specifications for the Performance Service Level are applied to the workload, and the specifications for the Storage Efficiency Policy are assigned to the volume and LUN, as applicable, when the workload is created.
 
-. Select the *Enforce performance limits* check box if you want to enforce the Performance Service Level that you have assigned to the workload. Assigning a Performance Service Level to a workload ensures that the aggregate on which the workload is created can support the performance and capacity objectives defined in the respective Performance Service Level. For example, if a workload is assigned "`Extreme Performance`", the aggregate on which the workload is to be provisioned should have the capability of supporting the performance and capacity objectives of the "`Extreme Performance`"Performance Service Level, such as SSD storage.
+. Select the *Enforce performance limits* check box if you want to enforce the Performance Service Level that you have assigned to the workload. Assigning a Performance Service Level to a workload ensures that the aggregate on which the workload is created can support the performance and capacity objectives defined in the respective Performance Service Level. For example, if a workload is assigned "`Extreme Performance`", the aggregate on which the workload is to be provisioned should have the capability of supporting the performance and capacity objectives of the "Extreme Performance" Performance Service Level, such as SSD storage.
 +
 [NOTE]
 ====
@@ -50,12 +50,13 @@ On adding the host IP address, an internal check runs for matching the host deta
 . For creating LUNs, select the *SAN* button. This button is enabled for selection only when the selected storage VM has the required services enabled.
  .. Select the host OS.
  .. Specify the host mapping for the LUN. You can assign existing initiator groups (igroups), or define and map new igroups to LUNs to control which initiators have access to LUNs.
- .. [NOTE]
-====
-If you create a new igroup while provisioning the LUN, you need to wait till the next discovery cycle (up to 15 minutes) for using it for the LUN creation. It is therefore recommended that you use an existing igroup from the list of available igroups.
-====
-
+ 
++
+NOTE: If you create a new igroup while provisioning the LUN, you need to wait till the next discovery cycle (up to 15 minutes) for using it for the LUN creation. It is therefore recommended that you use an existing igroup from the list of available igroups.
++
 If you want to create a new igroup, select the *Create a new initiator group* button, and then enter the required information to create the igroup.
+
++
 . Click *Save*.
 
 The workload is added to the list of storage workloads.

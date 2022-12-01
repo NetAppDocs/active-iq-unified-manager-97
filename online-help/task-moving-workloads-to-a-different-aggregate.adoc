@@ -16,7 +16,7 @@ You can use Unified Manager to help identify an aggregate that is less busy than
 * You must have the Operator, Application Administrator, or Storage Administrator role.
 * You must have recorded the name of the aggregate that is currently having a performance issue.
 * You must have recorded the date and time at which the aggregate received the event.
-* You must have recorded the event ID, for example,"` p-sdt-clus1-ag-2542`".
+* You must have recorded the event ID, for example, "p-sdt-clus1-ag-2542".
 * Unified Manager must have collected and analyzed a month or more of performance data.
 
 == About this task

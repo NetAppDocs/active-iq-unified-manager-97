@@ -46,7 +46,7 @@ datacenter
 a|
 GET
 a|
-    `/datacenter/storage/volumes`
+`/datacenter/storage/volumes`
 
 |===
 
