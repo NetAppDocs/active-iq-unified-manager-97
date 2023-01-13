@@ -40,7 +40,3 @@ The default value for retention count is 10; you can use 0 for creating unlimite
 
 . Select the *Scheduled Daily* or *Scheduled Weekly* button, and then specify the schedule details.
 . Click *Apply*.
-
-*Related information*
-
-xref:reference-database-backup-page.adoc[Database Backup page]

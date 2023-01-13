@@ -36,13 +36,3 @@ Whether the report is generated as a PDF file or in CSV format.
 * *Action*
 +
 Options available to edit or delete the report schedule.
-
-*Related information*
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting data to CSV and PDF files for reporting]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]
-
-xref:concept-unified-manager-databases-accessible-for-reporting.adoc[Unified Manager databases accessible for custom reporting]
-
-xref:concept-using-unified-manager-rest-apis-ocum.adoc[Using Unified Manager REST APIs]

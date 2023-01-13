@@ -21,6 +21,8 @@ When selecting a time range (either custom or predefined), time ranges of 30 day
 
 image::../media/time-range-selector.gif[]
 
+== Steps
+
 . Click the *Time Range* drop-down box and the Time Range panel displays.
 . To select a predefined time range, click one of the *Last...* buttons at the right of the *Time Range* panel. When selecting a predefined time range, data for up to 13 months is available. The predefined time range button you selected is highlighted, and the corresponding days and time display in the calendars and time selectors.
 . To select a custom date range, click the start date in the *From* calendar on the left. Click *<* or *>* to navigate forward or backward in the calendar. To specify the end date, click a date in the *To* calendar on the right. Note that the default end date is today unless you specify a different end date. The *Custom Range* button at the right of the Time Range panel is highlighted, indicating that you have selected a custom date range.

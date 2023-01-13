@@ -19,6 +19,7 @@ You must have the Application Administrator or Storage Administrator role.
 
 . Navigate to the storage objects you want to annotate:
 +
+[cols="1a,1a" options="header"]
 |===
 | To add annotation to...| Do this...
 a|

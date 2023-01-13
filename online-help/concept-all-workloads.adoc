@@ -35,7 +35,7 @@ On the All Workloads screen, you can view all the workloads in your data center 
 
 The page also enables you to view the performance details of a workload. You can view detailed information about the IOPS, capacity, and latency of the workload by clicking the *Choose / Order Columns* button and selecting specific columns to view. The Performance View column displays the average and peak IOPS for a workload, and you can click the workload analyser icon to view the detailed IOPS analysis. The *Analyze Workload* button on the IOPS Analysis pop-up takes you to the Workload Analysis page, where you can select a time range and view the latency, throughput, and capacity trends for the selected workload. For more information about workload analyzer, see _Troubleshooting workloads using the workload analyzer_
 
-link:concept-troubleshooting-workloads-using-the-workload-analyzer.md#[Troubleshooting workloads using the workload analyzer]
+link:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc[Troubleshooting workloads using the workload analyzer]
 
 == Assigning Performance Service Levels to storage workloads
 
@@ -63,9 +63,3 @@ The *Assigned Performance Service Level* and *Storage Efficiency Policy* fields 
 == Analyzing performance and capacity criteria for a workload
 
 You can view performance information about a workload to help with troubleshooting by clicking the bar chart icon in the *Performance View* column. To view performance and capacity charts on the Workload Analysis page to analyze the object, click the *Analyze Workload* button.
-
-*Related information*
-
-xref:task-creating-and-editing-psls.adoc[Creating and editing Performance Service Levels]
-
-xref:task-creating-and-editing-seps.adoc[Creating and editing Storage Efficiency Policies]

@@ -13,6 +13,7 @@ The *Fix It* button enables you to fix an issue that Unified Manager has been no
 
 We recommend that you click the *Fix It* button to fix the issue when it is available. However, if you are not sure that you want to resolve the issue as recommended by Unified Manager, you can perform the following actions:
 
+[cols="1a,1a" options="header"]
 |===
 | What do you want to do?| Action
 a|

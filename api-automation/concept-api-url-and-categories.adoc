@@ -48,9 +48,3 @@ The APIs under the *management-server* category contain the `jobs` API. Jobs are
 * *storage-provider*
 +
 This category contains all of the provisioning APIs required for managing and provisioning file shares, LUNs, Performance Service Levels, and Storage Efficiency Policies. The APIs also enable you to configure access endpoints, Active Directories, as well as assign Performance Service Levels and Storage Efficiency Policies on storage workloads.
-
-*Related information*
-
-xref:concept-rest-api-access-and-authentication-in-oncommand-api-services.adoc[REST API access and authentication in Active IQ Unified Manager]
-
-xref:concept-rest-services-offered-in-oncommand-api-services.adoc[REST services offered in Active IQ Unified Manager]

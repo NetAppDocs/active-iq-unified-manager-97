@@ -24,6 +24,7 @@ curl -X GET "https://<hostname>/api/datacenter/cluster/clusters/4c6bf721-2e3f-11
 The CURL commands, examples, requests, and responses to the APIs, are available on your Swagger API interface. You can filter and order the results by specific parameters as indicated on Swagger. These APIs enable you to filter the results for specific storage objects, such as cluster, volume, or storage VM.
 ====
 
+[cols="1a,1a,4a" options="header"]
 |===
 | HTTP verb| Path| Description
 a|
@@ -31,7 +32,7 @@ a|
 a|
 `/datacenter/cluster/clusters`
 
-`+/datacenter/cluster/clusters/{key}+`
+`/datacenter/cluster/clusters/{key}`
 
 a|
 You can use this method to view the details of the ONTAP clusters across the data center.
@@ -41,7 +42,7 @@ a|
 a|
 `/datacenter/cluster/nodes`
 
-`+/datacenter/cluster/nodes/{key}+`
+`/datacenter/cluster/nodes/{key}`
 
 a|
 You can use this method to view the details of the nodes in the data center.
@@ -51,7 +52,7 @@ a|
 a|
 `/datacenter/protocols/cifs/shares`
 
-`+/datacenter/protocols/cifs/shares/{key}+`
+`/datacenter/protocols/cifs/shares/{key}`
 
 a|
 You can use this method to view the details of the CIFS shares in the data center.
@@ -61,7 +62,7 @@ a|
 a|
 `/datacenter/protocols/nfs/export-policies`
 
-`+/datacenter/protocols/nfs/export-policies/{key}+`
+`/datacenter/protocols/nfs/export-policies/{key}`
 
 a|
 You can use this method to view the details of the export policies for the supported NFS services.
@@ -73,7 +74,7 @@ a|
 a|
 `/datacenter/storage/aggregates`
 
-`+/datacenter/storage/aggregates/{key}+`
+`/datacenter/storage/aggregates/{key}`
 
 a|
 You can use this method to view the collection of aggregates in the entire data center for provisioning workloads on them or monitoring.
@@ -83,7 +84,7 @@ a|
 a|
 `/datacenter/storage/luns`
 
-`+/datacenter/storage/luns/{key}+`
+`/datacenter/storage/luns/{key}`
 
 a|
 You can use this method to view the collection of LUNs in the entire data center.
@@ -93,7 +94,7 @@ a|
 a|
 `/datacenter/storage/qos/policies`
 
-`+/datacenter/storage/qos/policies/{key}+`
+`/datacenter/storage/qos/policies/{key}`
 
 a|
 You can use this method to view the details of all the QoS policies in the data center and apply the policies as required.
@@ -103,7 +104,7 @@ a|
 a|
 `/datacenter/storage/qtrees`
 
-`+/datacenter/storage/qtrees/{key}+`
+`/datacenter/storage/qtrees/{key}`
 
 a|
 You can use this method to view the qtree details across the data center.
@@ -113,7 +114,7 @@ a|
 a|
 `/datacenter/storage/volumes`
 
-`+/datacenter/storage/volumes/{key}+`
+`/datacenter/storage/volumes/{key}`
 
 a|
 You can use this method to view the collection of volumes in the data center.
@@ -130,7 +131,7 @@ a|
 a|
 `/datacenter/protocols/san/igroups`
 
-`+/datacenter/protocols/san/igroups/{key}+`
+`/datacenter/protocols/san/igroups/{key}`
 
 a|
 You can assign initiator groups (igroups) authorized to access particular LUN targets. If there is an existing igroup, you can assign it. You can also create igroups and assign them to the LUNs.
@@ -155,7 +156,7 @@ a|
 a|
 `/datacenter/svm/svms`
 
-`+/datacenter/svm/svms/{key}+`
+`/datacenter/svm/svms/{key}`
 
 a|
 You can use these methods to view, create, delete, and modify Storage Virtual Machines (storage VMs).
@@ -164,25 +165,11 @@ Points to note:
 
 * `POST`: You must enter the storage VM object that you want to create as an input parameter. You can create a custom storage VM, and then assign required properties to it.
 +
-[NOTE]
-====
-If you have enabled SLO-based workload provisioning on your environment, while creating the storage VM, ensure that it supports all of the protocols required for provisioning LUNs and file shares on them, for example, SMB/CIFS, NFS, FCP, and iSCSI. The provisioning workflows might fail if the storage VM does not support the required services. It is recommended that the services for the respective types of workloads are also enabled on the storage VM.
-====
+NOTE: If you have enabled SLO-based workload provisioning on your environment, while creating the storage VM, ensure that it supports all of the protocols required for provisioning LUNs and file shares on them, for example, SMB/CIFS, NFS, FCP, and iSCSI. The provisioning workflows might fail if the storage VM does not support the required services. It is recommended that the services for the respective types of workloads are also enabled on the storage VM.
 
 * `DELETE`: You need to provide the storage VM key to delete a particular storage VM.
 +
-[NOTE]
-====
-If you have enabled SLO-based workload provisioning on your environment, you cannot delete that storage VM on which storage workloads have been provisioned. When you delete a storage VM on which a CIFS/SMB server has been configured, this API also deletes the CIFS/SMB server, along with the local Active Directory configuration. However, the CIFS/SMB server name continues to be in the Active Directory configuration that you must delete manually from the Active Directory server.
-====
+NOTE: If you have enabled SLO-based workload provisioning on your environment, you cannot delete that storage VM on which storage workloads have been provisioned. When you delete a storage VM on which a CIFS/SMB server has been configured, this API also deletes the CIFS/SMB server, along with the local Active Directory configuration. However, the CIFS/SMB server name continues to be in the Active Directory configuration that you must delete manually from the Active Directory server.
 
 * `PATCH`: You need to provide the storage VM key to modify a particular storage VM. You also need to enter the properties that you want to update, along with their values.
-
 |===
-*Related information*
-
-xref:concept-workflow-space-issue.adoc[Determining space issues in aggregates]
-
-xref:concept-provisioning-luns.adoc[Provisioning LUNs]
-
-xref:concept-provisioning-file-share.adoc[Provisioning CIFS and NFS file shares]
