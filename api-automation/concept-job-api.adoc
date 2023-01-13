@@ -1,0 +1,32 @@
+---
+permalink: api-automation/concept-job-api.html
+sidebar: sidebar
+keywords: 
+summary: 'In Active IQ Unified Manager, operations like adding and modifying resources are performed by synchronous and asynchronous API invocations. Invocations that are scheduled for asynchronous execution can be tracked by a Job object created for that invocation. Each Job object has a unique key for identification. Each Job object returns the Job object URI for you to access and track the progress of the job. You can use this API for retrieving the details of each execution.'
+---
+= Viewing Jobs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In Active IQ Unified Manager, operations like adding and modifying resources are performed by synchronous and asynchronous API invocations. Invocations that are scheduled for asynchronous execution can be tracked by a Job object created for that invocation. Each Job object has a unique key for identification. Each Job object returns the Job object URI for you to access and track the progress of the job. You can use this API for retrieving the details of each execution.
+
+You can query all of the Job objects. You can also use the Job key and Job object details to run the next set of operations on the resources.
+
+== View jobs
+
+You can use this method to obtains a list of all of the Jobs. The response body consists of the Job details of all of the Jobs. You can also view the details of a particular Job object by specifying the Job key in the URI. The response body consists of the details that are identified by the Job key. In the response, the latest Job object is returned to the top. If you want to query a particular Job object, enter the Job ID of the job.
+
+[cols="1a,1a,1a" options="header"]
+|===
+| Category| HTTP verb| Path
+a|
+management-server
+a|
+GET
+a|
+`/management-server/jobs`
+
+`+/management-server/jobs/{key}+`
+
+|===

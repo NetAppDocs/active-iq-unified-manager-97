@@ -1,0 +1,53 @@
+---
+permalink: online-help/reference-what-ontap-issues-can-unified-manager-fix.html
+sidebar: sidebar
+keywords: fix it
+summary: 'This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the Fix It button.'
+---
+= What ONTAP issues can Unified Manager fix
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This table describes the ONTAP issues that Unified Manager can resolve directly from the Unified Manager user interface by clicking the *Fix It* button.
+
+[cols="1a,1a,1a" options="header"]
+|===
+| Event Name and Description| Management Action| "`Fix It`" Operation
+a|
+Volume Space Full
+
+Indicates that the volume is almost out of space and it has breached the capacity full threshold. This threshold is set by default to 90% of the volume size.
+
+a|
+Enable volume autogrow
+a|
+Unified Manager determines that volume autogrow is not configured for this volume, so it enables this feature so the volume will grow or shrink in size in response to the amount of used space.
+a|
+Option Cf.takeover.on_panic is Configured OFF
+
+The nodeshell option "`cf.takeover.on_panic`" is set to *off*, which could cause an issue on HA-configured systems.
+
+a|
+Enable takeover on panic
+a|
+Unified Manager sends the appropriate command to the cluster to change this setting to *on*.
+a|
+Disable nodeshell option snapmirror.enable
+
+The old nodeshell option "`snapmirror.enable`" is set to *on*, which could cause an issue during boot after upgrading to ONTAP 9.3 or greater.
+
+a|
+Set snapmirror.enable option to off
+a|
+Unified Manager sends the appropriate command to the cluster to change this setting to *off*.
+a|
+Telnet enabled
+
+Indicates a potential security issue because Telnet is insecure and passes data in an unencrypted manner.
+
+a|
+Disable Telnet
+a|
+Unified Manager sends the following command to the cluster to disable Telnet: `security protocol modify -application telnet -enabled false`
+|===

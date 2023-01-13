@@ -1,0 +1,65 @@
+---
+permalink: online-help/concept-all-workloads.html
+sidebar: sidebar
+keywords: workloads,workloads
+summary: 'The All Workloads view displays the list of all the workloads available on the clusters in a data center.'
+---
+= All Workloads
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The All Workloads view displays the list of all the workloads available on the clusters in a data center.
+
+The All Workloads view lists the storage workloads associated with the ONTAP clusters managed by Unified Manager. The page also enables you to assign Storage Efficiency Policies and Performance Service Levels to storage workloads.
+
+When you add clusters to Unified Manager, the storage workloads on each cluster are automatically discovered and displayed on this page, except FlexGroup volumes and its constituents.
+
+Unified Manager begins to analyze the workloads for recommendation (recommended Performance Service Levels) only after I/O operations start on the storage workloads. For the newly-discovered storage workloads on which there have been no I/O operations, the status is "`Waiting for I/O`". After I/O operations begin on the storage workloads, Unified Manager begins the analysis and the workload status changes to "`Learning...`". After the analysis is complete (within 24 hours from the beginning of the I/O operations), the recommended Performance Service Levels are displayed for the storage workloads.
+
+Using the *Workloads* > *All Workloads* option, you can perform multiple tasks:
+
+* Add or provision storage workloads
+* View and filter the list of workloads
+* Assign Performance Service Levels to individual storage workloads
+* Assign system-recommended Performance Service Levels to all unassigned workloads
+* Assign Storage Efficiency Policies to storage workloads
+
+== Adding or provisioning storage workloads
+
+You can add or provision the storage workloads to supported LUNs (supporting both iSCSI and FCP protocols), NFS file shares, and SMB shares.
+
+== Viewing and filtering workloads
+
+On the All Workloads screen, you can view all the workloads in your data center or search for specific storage workloads based on either the Performance Service Levels assigned to them, or by workload names. You can use the filter icon to enter specific conditions for your search. You can search by different filter conditions, such as by the host cluster or storage VM. If you select the *Capacity Total* option, you can search by the total capacity of the workloads. The number of workloads returned might vary depending on the exact filter condition entered, as the capacity is compared at a byte level. The screen displays storage information for the workloads, such as the host cluster and storage VM, along with the Performance Service Level and Storage Efficiency Policy, if any.
+
+The page also enables you to view the performance details of a workload. You can view detailed information about the IOPS, capacity, and latency of the workload by clicking the *Choose / Order Columns* button and selecting specific columns to view. The Performance View column displays the average and peak IOPS for a workload, and you can click the workload analyser icon to view the detailed IOPS analysis. The *Analyze Workload* button on the IOPS Analysis pop-up takes you to the Workload Analysis page, where you can select a time range and view the latency, throughput, and capacity trends for the selected workload. For more information about workload analyzer, see _Troubleshooting workloads using the workload analyzer_
+
+link:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc[Troubleshooting workloads using the workload analyzer]
+
+== Assigning Performance Service Levels to storage workloads
+
+You can assign a Performance Service Level to a single or multiple storage workloads. By using the different navigations on the screen, you can assign a specific or system-recommended Performance Service Level to the workloads.
+
+== Assigning system-recommended Performance Service Levels to all unassigned workloads
+
+You can assign Performance Service Levels to all the storage workloads in a data center that have no PSLs assigned, provided there are system-recommended Performance Service Levels available for the workloads. This functionality is not effective for workloads that do not have any system-recommended Performance Service Levels available. To use this functionality, click the *Assign System Recommended PSLs* button. The system internally evaluates the appropriate Performance Service Levels for the unassigned storage workloads and displays the total number of workloads on which the Performance Service Levels can be assigned.
+
+== Assigning Storage Efficiency Policies to storage workloads
+
+You can assign a Storage Efficiency Policy to a single or multiple storage workloads. By using the different navigations on the screen, you can assign a specific Storage Efficiency Policy to the storage workloads.
+
+== Assigning Performance Service Level and Storage Efficiency Policy together
+
+You can assign a Performance Service Level and Storage Efficiency Policy to a single workload together. Follow these steps:
+
+. Click the edit icon for the row, and then click *Edit*.
++
+The *Assigned Performance Service Level* and *Storage Efficiency Policy* fields are enabled.
+
+. Select the required Performance Service Level and Storage Efficiency Policy.
+. Click the check icon to apply the changes.
+
+== Analyzing performance and capacity criteria for a workload
+
+You can view performance information about a workload to help with troubleshooting by clicking the bar chart icon in the *Performance View* column. To view performance and capacity charts on the Workload Analysis page to analyze the object, click the *Analyze Workload* button.
