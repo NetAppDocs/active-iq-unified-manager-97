@@ -30,7 +30,7 @@ For detailed system requirements, see the link:concept-requirements-for-installi
 .	Copy the installation file to a directory on the target system.
 
 === Install Unified Manager
-For installing Unified Manager, ensure that you have Microsoft .NET 4.5.2, or a later version installed. As a part of the installation process, Unified Manager installs other third-party packages as required. For more information about the dependent software packages, refer to the link:./install-windows/reference-windows-software-and-installation-requirements.html[Windows software and installation requirements].
+For installing Unified Manager, ensure that you have Microsoft .NET 4.5.2, or a later version installed. As a part of the installation process, Unified Manager installs other third-party packages as required. For more information about the dependent software packages, refer to the link:reference-windows-software-and-installation-requirements.html[Windows software and installation requirements].
 
 .	Log in to Windows using the default local administrator account.
 .	In the directory where you downloaded the installation file, right-click and run the Unified Manager executable (.exe) file as an administrator.
