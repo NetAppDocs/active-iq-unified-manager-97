@@ -27,7 +27,7 @@ More time is required the first time a backup is performed than for subsequent b
 
 [NOTE]
 ====
-If you find that the number of incremental backup files is getting too large for the space you have allocated for backups, see https://kb.netapp.com/app/answers/answer_view/a_id/1087704/loc/en_US[Knowledgebase Answer 1087704] to learn how you can create a new full backup periodically to replace the old full backup and all of its' child incremental files.
+If you find that the number of incremental backup files is getting too large for the space you have allocated for backups, you can create a new full backup periodically to replace the old full backup and all of its child incremental files.
 ====
 
 == Steps
