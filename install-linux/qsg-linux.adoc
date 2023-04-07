@@ -13,7 +13,7 @@ summary: "Quick start guide for Unified Manager on Linux platform."
 *	RAM: 12 GB, CPU: 9572 MHz total
 *	Free disk space: 100 GB of disk space in the `/opt/netapp/data` directory, 50 GB in the root partition. For separately mounted `/opt` and `/var/log` directories, ensure that `/opt` has 15 GB, `/var/log` has 16 GB, and `/tmp` has 10 GB of free space.
 
-For detailed system requirements and for information about installing the product in a secured site, see the link:./install-linux/concept-requirements-for-installing-unified-manager.html[Requirements for installing Unified Manager] and the link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
+For detailed system requirements and for information about installing the product in a secured site, see the link:concept-requirements-for-installing-unified-manager.html[Requirements for installing Unified Manager] and the link:http://mysupport.netapp.com/matrix[Interoperability Matrix].
 
 == Installing Active IQ Unified Manager
 

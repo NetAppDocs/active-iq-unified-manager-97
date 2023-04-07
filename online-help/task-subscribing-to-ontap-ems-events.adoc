@@ -36,7 +36,7 @@ If you do not receive the ONTAP EMS events to which you have subscribed, there m
 +
 To view the names of the EMS events to which you can subscribe, from the ONTAP cluster shell, you can use the `event route show` command (prior to ONTAP 9) or the `event catalog show` command (ONTAP 9 or later). See Knowledgebase Answer 1072320 for detailed instructions for identifying individual EMS events.
 +
-https://kb.netapp.com/app/answers/answer_view/a_id/1072320[KB 1072320 - How to configure ONTAP EMS event subscriptions in Unified Manager]
+https://kb.netapp.com/mgmt/AIQUM/How_to_configure_and_receive_alerts_from_ONTAP_EMS_Event_Subscription_in_Active_IQ_Unified_Manager[How to configure and receive alerts from ONTAP EMS Event Subscription in Active IQ Unified Manager]
 
 . Click *Add*.
 +
